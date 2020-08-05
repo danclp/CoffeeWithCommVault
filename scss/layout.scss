@@ -1,0 +1,127 @@
+.site-header {
+	.site-brands {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 20px;
+		padding-bottom: 20px;
+
+		img {
+			@include transition(all 0.35s ease-in-out);
+			height: 100%;
+		} // img
+
+		&_commvault {
+			width: 160px;
+		} // _commvault
+
+		&_netapp {
+			width: 90px; 
+		} // _natapp
+	} // .site-brands
+
+	@include breakpoint($tablet) {
+		.site-brands {
+			&_commvault {
+				width: 180px;
+			} // _commvault
+
+			&_netapp {
+				width: 100px; 
+			} // _natapp
+
+		} // .site-brands
+	} // bp($tablet)
+} // .site-header
+
+.main-contents {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	&_cta-button {
+		background-color: site-color('primary');
+		margin-top: 30px;
+
+		a {
+			color: site-color('day');
+			padding: 5px 10px;
+			text: {
+				align: center;
+				transform: uppercase;
+			} // text
+		} // a
+	} // _cta-button
+
+	@include breakpoint($tablet) {
+		&_wrap{
+			display: flex;
+		} // &_wrap
+
+		&_intro {
+			border-right: 1px solid lighten(site-color('night'), 70);
+			// margin-right: calc(100% / 12 * 0.5);
+			padding-right: calc(100% / 12 * 0.5);
+			width: calc(100% / 12 * 7);
+		} // _intro
+
+		&_cta {
+			padding-left: calc(100% / 12 * 0.5);
+			width: calc(100% / 12 * 5);
+		} // _cta
+	} // bp($tablet)
+} // .main-contents
+
+.site-footer {
+	.social_media {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+
+		a {
+			color: transparent;
+			display: inline-block;
+			font: 0/0 a;
+			padding: 0 20px;
+			text-shadow: none;
+
+			&:before {
+				content: '';
+				display: block;
+				width: 20px;
+				height: 20px;
+			} // :before
+
+			&[href*="twitter.com"] {
+				&:before {
+					background: image('twitter.svg') left top no-repeat;
+					background-size: 100%
+				} // :before
+			} // [href="https://twitter.com"]
+
+			&[href*="facebook.com"] {
+				&:before {
+					background: image('facebook.svg') left top no-repeat;
+					background-size: 100%
+				} // :before
+			} // [href="https://twitter.com"]
+
+			&[href*="linkedin.com"] {
+				&:before {
+					background: image('linkedin.svg') left top no-repeat;
+					background-size: 100%
+				} // :before
+			} // [href="https://twitter.com"]
+		} // a
+	} // .social_media
+
+	@include retina(iPhonel) {
+		.social_media {
+			text-align: right;
+		} // .social_media
+	} // retina(iPhonel)
+
+	@include breakpoint($tablet) {
+		.social_media {
+			text-align: right;
+		} // .social_media
+	} // breakpoint($tablet)
+} // .site-footer
