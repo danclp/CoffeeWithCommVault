@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en" class="no-js">
+<head>
+	<meta charset='UTF-8'>
+	<!-- www.phpied.com/conditional-comments-block-downloads/ -->
+	<!--[if IE]><![endif]-->
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/screen.css" />
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+
+	<title>Commvault</title>
+
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="site-brands wrap">
+			<img src="images/commvault.svg" alt="CommVault" class="site-brands_commvault">
+			<img src="images/netapp.svg" alt="NetApp" class="site-brands_netapp">
+		</div>
+	</header>
+	<div class="pageWrap">
+		<section class="hero">
+			<img src="images/masthead.png" alt="Fuelling Your Business" class="hero_banner">
+		</section>
+		<div class="main-contents">
+			<div class="outer-wrap wrap">
+				<div class="error-contents">
+					<h1 class="error-contents_title">Opps you are out of your access!</h1>
+					<p>Please click below button to go back to previous page.</p>
+					<button class="error-contents_back" onclick="goBack()">Go Back</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="site-footer">
+		<div class="social_media outer-wrap wrap">
+			<a href="https://twitter.com/commvault">twitter</a>
+			<a href="https://www.facebook.com/Commvault/">facebook</a>
+			<a href="https://www.linkedin.com/company/commvault">linkedin</a>
+		</div>
+	</footer>
+	<script>
+		function goBack() {
+			window.history.back();
+		}
+	</script>
+</body>
+</html>

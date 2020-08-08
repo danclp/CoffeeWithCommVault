@@ -1,0 +1,33 @@
+.error-contents {
+	&_title {
+		color: site-color('primary');
+		font-size: 2.369em;
+	} // _title
+
+	&_back {
+		background: site-color('primary');
+		border: 0;
+		border-radius: 5px;
+		color: site-color('day');
+		padding: 10px 20px;
+	} // _back
+
+	@include breakpoint($tablet) {
+		&_title {
+			font-size: 3.157em;
+		} // _title
+	} // bp($tablet)
+
+	@include breakpoint($widescn) {
+		&_title {
+			font-size: 4.209em;
+		} // _title
+	} // bp($widescn)
+} // .error-contents
+
+#msg {
+	color: site-color('primary');
+	font-size: 1.777em;
+	padding: 30px;
+	text-align: center;
+} // msg

@@ -268,6 +268,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index.html",
+		"oF": 0
+		},
 	"/index_aus.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -414,41 +422,15 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/scss/modules/about.scss": {
+	"/scss/modules/error.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/modules/about.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/scss/modules/client.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/modules/client.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/scss/modules/contact.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/modules/contact.css",
+		"oA": 1,
+		"oAP": "/scss/modules/error.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -462,45 +444,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/modules/form.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/scss/modules/home.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/modules/home.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/scss/modules/nav.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/modules/nav.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/scss/modules/project.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/modules/project.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

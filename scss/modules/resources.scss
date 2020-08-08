@@ -46,6 +46,7 @@
 			ul {
 				font-size: 0.85em;
 				padding: 15px;
+				min-height: 200px;
 
 				li {
 					&:not(:last-child) {
@@ -144,7 +145,6 @@
 				.category_contents {
 					@include transition(all 0.35s 0.15s ease-in-out);
 					@include transform(translateY(0));
-					// box-shadow: 0 1px 3px rgba(site-color('night'), 0.45);
 					z-index: 2;
 				} // .category_contents
 			} // :hover
