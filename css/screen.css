@@ -976,10 +976,13 @@ svg {
     flex-wrap: wrap;
   }
   .form form .input .choice_wrap .choices {
-    width: calc(100% / 12 * 6 - 20px);
+    width: calc(100% / 12 * 6 - 10px);
   }
   .form form .input .choice_wrap .choices:not(:nth-child(2n)) {
     margin-right: 20px;
+  }
+  .form form .input .choice_wrap .choices-odd {
+    width: calc(100% / 12 * 4 - 20px);
   }
   .form form .associate {
     display: flex;
@@ -1022,6 +1025,9 @@ svg {
   }
   .form form .input .choice_wrap .choices:not(:nth-child(2n)) {
     margin-right: 20px;
+  }
+  .form form .input .choice_wrap .choices-odd {
+    width: calc(100% / 12 * 4 - 20px);
   }
   .form form .associate {
     display: flex;
@@ -1078,4 +1084,7 @@ svg {
   font-size: 1.777em;
   padding: 30px;
   text-align: center;
+}
+#msg h2 {
+  font-size: 2em;
 }

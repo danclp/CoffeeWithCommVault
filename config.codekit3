@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/css/jquery.datetimepicker.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/jquery.datetimepicker.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/magnific-popup.css": {
 		"aP": 1,
 		"bl": 0,
@@ -292,6 +302,17 @@
 		"oAP": "/index_In.html",
 		"oF": 0
 		},
+	"/js/jquery.datetimepicker.full.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/jquery.datetimepicker.full.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/jquery.magnific-popup.js": {
 		"bF": 0,
 		"ft": 64,
@@ -299,17 +320,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/jquery.magnific-popup-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/script-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/script-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

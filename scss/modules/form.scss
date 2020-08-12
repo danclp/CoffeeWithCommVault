@@ -119,11 +119,15 @@
 					flex-wrap: wrap;
 
 					.choices {
-						width: calc(100% / 12 * 6 - 20px);
+						width: calc(100% / 12 * 6 - 10px);
 
 						&:not(:nth-child(2n)) {
 							margin-right: 20px;
 						} // :not(:nth-child(2n))
+
+						&-odd {
+							width: calc(100% / 12 * 4 - 20px);
+						} //-odd
 					} // .choices
 				} // .choice_wrap
 			} // .input
@@ -182,6 +186,10 @@
 						&:not(:nth-child(2n)) {
 							margin-right: 20px;
 						} // :not(:nth-child(2n))
+
+						&-odd {
+							width: calc(100% / 12 * 4 - 20px);
+						} //-odd
 					} // .choices
 				} // .choice_wrap
 			} // .input

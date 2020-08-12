@@ -31,6 +31,16 @@ jQuery(document).ready(function($) {
 				emailfull: true,
 				nofreeemail: true
 			},
+			emailrefer1: {
+				email: true,
+				emailfull: true,
+				nofreeemail: true
+			},
+			emailrefer2: {
+				email: true,
+				emailfull: true,
+				nofreeemail: true
+			},
 			contact: {
 				required: true,
 				digits: true,
@@ -39,14 +49,35 @@ jQuery(document).ready(function($) {
 		}
 	});
 
+	// Checkbox
 	$('#eForm').submit(function() {
-		if($('#checkbox input:checked').length < 1){
-			$('#checkboxalert').show()
-			$('#checkboxalert').html("Please select at least 1 answer");
+		if($('#checkbox1 input:checked').length < 1){
+			$('#checkboxalert1').show()
+			$('#checkboxalert1').html("Please select at least 1 answer");
 			
 			return false;
 		}else{
-			$('#checkboxalert').hide();
+			$('#checkboxalert1').hide();
 		}
+
+		if($('#checkbox2 input:checked').length < 1){
+			$('#checkboxalert2').show()
+			$('#checkboxalert2').html("Please select at least 1 answer");
+			
+			return false;
+		}else{
+			$('#checkboxalert2').hide();
+		}
+	});
+
+	// datetime
+	$('#datetimepicker').datetimepicker({
+		onGenerate:function( ct ){
+	    $(this).find('.xdsoft_date.xdsoft_weekend')
+	      .addClass('xdsoft_disabled');
+	  },
+		allowTimes:[
+			'10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00'
+		]
 	});
 });
